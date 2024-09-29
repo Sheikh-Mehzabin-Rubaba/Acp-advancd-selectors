@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <style>
+            /* Advanced selectors
+            a)Attribute selector
+            b)Child selector
+            c)Sibling selector
+
+            Pseudo classes
+            a)Hover
+            b)n-th child
+            c)not selector
+            
+            Pseudo elements
+            a)::before
+            b)::after
+            c)first-letter*/
+            body{
+                background-image: url(1.jpg);
+            }
+            h1{[id="i1"]
+            }
+            ol>li{color:gold;}
+           h1+p{font-weight: bold;}
+            a:Hover{color: aqua;}
+            p:not(#i4){color:chartreuse;
+            border: 5px black dashed;}
+             li:nth-child(1){background-color:limegreen;}
+
+            li:nth-child(2){background-color:lime;}
+             li:nth-child(3){background-color:seagreen;}
+
+              li:nth-child(4){background-color:green;}
+
+               li:nth-child(5){background-color:darkgreen;}
+               p::before{content: "Trees-------";}
+               p::after{content: "......";}
+               p::first-letter{font-size: 30px; color: lightgreen;}
+               #i4{color: springgreen; border: 5px black dashed;}
+
+
+
+        </style>
+    </head>
+    <body>
+        <center>
+            <h1 id="i1">Tree</h1>
+            <p id="i2">In botany, <big><em>a tree</em></big> is a perennial plant with an elongated stem, or trunk, usually supporting branches and leaves. In some
+            usages, the definition of a tree may be narrower, including only woody plants with secondary growth, plants that are
+            usable as lumber or plants above a specified height. In wider definitions, the taller palms, tree ferns, bananas, and
+            bamboos are also trees.</p>
+            
+        </center>
+        <h3 id="i3">There are many type of trees:</h3>
+        <ol>
+            <li>Oak tree</li>
+            <li>Pine tree</li>
+            <li>Willow tree</li>
+            <li>Redwood tree</li>
+            <li>Cherry tree</li>
+        </ol><br>
+        <p id="i4">Trees are represented in each of the major groups of the vascular plants: <b>pteridophytes (seedless vascular plants that
+        include the tree ferns), gymnosperms (cycads, ginkgoes, and conifers), and angiosperms (flowering plants).</b>
+
+        </p><br><br>
+        <a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://en.wikipedia.org/wiki/Tree&ved=2ahUKEwjOr7ya4-iIAxXNdmwGHffDIGUQFnoECGkQAQ&usg=AOvVaw3IGF59fHNLkGNQ_VxaLjuk">Click Here To Know More...</a>
+
+    </body>
+</html>
